@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable semi */
 import React from 'react'
 import { createDrawerNavigator } from 'react-navigation'
 
@@ -5,8 +7,13 @@ import Simples from './componentes/Simples'
 import ParImpar from './componentes/ParImpar'
 //Modulo importado sem o Default 
 import {Inverter, Lotto } from './componentes/Multi'
+import Contador from './componentes/Contador'
 
 export default createDrawerNavigator({
+    Contador: {
+        screen: () => <Contador numero={8} />
+
+    },
     Lotto: {
         screen: () => <Lotto numeros ={8} />,
         navigationOptions: { title: 'Lotoo'}
