@@ -11,7 +11,7 @@ import Contador from './componentes/Contador'
 
 export default createDrawerNavigator({
     Contador: {
-        screen: () => <Contador numero={8} />
+        screen: () => <Contador />
 
     },
     Lotto: {
