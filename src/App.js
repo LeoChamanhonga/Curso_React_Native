@@ -5,7 +5,7 @@ import {View, Text, StyleSheet} from 'react-native';
 import Simples from './componentes/Simples'
 import ParImpar from './componentes/ParImpar'
 //Modulo importado sem o Default 
-import {Inverter} from './componentes/Multi'
+import {Inverter, Lotto } from './componentes/Multi'
 
 //Componete Baseado em Classe
 export default class App extends Component {
@@ -16,6 +16,7 @@ export default class App extends Component {
 		<Simples texto="Flexivel" />
 		<ParImpar numero={28}/>
 		<Inverter texto='RN !'/>
+		<Lotto numeros= {5} />
 		
       </View>
     );
