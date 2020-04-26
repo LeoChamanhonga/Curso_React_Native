@@ -1,8 +1,15 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
 
 //Componente baseado em funcao
 
-export default function() {
-    return <Text>Simples ! </Text>
-}
+{/*export default function(props) {
+    return <Text>{props.texto}</Text>
+}*/}
+
+
+export default  props =>
+<View>
+    <Text>Arrow 1: {props.texto}</Text>
+    <Text>Arrow 2: {props.texto}</Text>
+</View>
