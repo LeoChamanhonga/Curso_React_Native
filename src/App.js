@@ -11,7 +11,7 @@ export default class App extends Component {
       <View style={styles.container}>
         <Text style={styles.f20}>App!</Text>
 		<Simples texto="Flexivel" />
-		<ParImpar numero={30}/>
+		<ParImpar numero={28}/>
 		
       </View>
     );
