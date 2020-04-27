@@ -9,7 +9,11 @@ export default class Contador extends Component{
         numero: 0
     }
     maisUm = () => {
-        
+        this.setState({ numero: this.state.numero + 1})
+    }
+
+    limpar = () => {
+        this.setState({ numero: 0})
     }
     
     render(){
