@@ -14,3 +14,8 @@ export const Pai = props =>
        {props.children}
    </View>
 
+export const Avo = props =>
+   <View>
+       <Text {...fonte}>Avo: {props.nome} {props.sobrenome} </Text>
+   </View>
+
