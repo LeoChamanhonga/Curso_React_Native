@@ -7,3 +7,7 @@ const ValidarProps = props =>
        {props.label}
        {props.ano + 2000}
    </Text>
+
+ValidarProps.defaultProps = {
+    
+}
