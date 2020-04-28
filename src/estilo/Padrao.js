@@ -16,5 +16,8 @@ export default StyleSheet.create({
         fontSize: 40,
         borderColor: 'gray',
         borderWidth: 1
+    },
+    fonte40: {
+        fontSize: 40
     }
 })
