@@ -17,5 +17,10 @@ export const Pai = props =>
 export const Avo = props =>
    <View>
        <Text {...fonte}>Avo: {props.nome} {props.sobrenome} </Text>
+       <Pai nome='Leon' sobrenome={props.sobrenome}>
+           <Filho nome='Antunes'/>
+           <Filho nome='Erikson'/>
+           <Filho nome='Mauro' />
+       </Pai>
    </View>
 
