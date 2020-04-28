@@ -9,5 +9,10 @@ const ValidarProps = props =>
    </Text>
 
 ValidarProps.defaultProps = {
-    
+    label: 'Ano: '
 }
+ValidarProps.prototype = {
+    ano: PropTypes.number.isRequired
+}
+
+export default ValidarProps 
