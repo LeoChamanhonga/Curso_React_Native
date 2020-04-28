@@ -9,10 +9,14 @@ import ParImpar from './componentes/ParImpar'
 import {Inverter, Lotto } from './componentes/Multi'
 import Contador from './componentes/Contador'
 import Plataformas from './componentes/Plataformas'
+import ValidarProps from './componentes/ValidarProps'
 
 export default createDrawerNavigator({
+    ValidarProps: {
+        screen: () => <ValidarProps ano={18}/>
+    },
     Plataformas: {
-        screen: Plataformas
+        screen: () => <Plataformas />
     },
    
     Contador: {
