@@ -10,5 +10,11 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         borderRadius: 10,
 
+    },
+    input : {
+        height: 70,
+        fontSize: 40,
+        borderColor: 'gray',
+        borderWidth: 1
     }
 })
