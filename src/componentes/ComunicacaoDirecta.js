@@ -7,3 +7,10 @@ export const Filho = props =>
   <View>
       <Text {...fonte}>Filho: {props.nome} {props.sobrenome}</Text>
   </View>
+
+export const Pai = props =>
+   <View>
+       <Text {...fonte}>Pai: {props.nome} {props.sobrenome}</Text>
+       {props.children}
+   </View>
+
