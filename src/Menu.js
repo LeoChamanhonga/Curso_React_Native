@@ -8,9 +8,14 @@ import ParImpar from './componentes/ParImpar'
 //Modulo importado sem o Default 
 import {Inverter, Lotto } from './componentes/Multi'
 import Contador from './componentes/Contador'
+import Plataformas from './componentes/Plataformas'
 
 export default createDrawerNavigator({
+    Plataformas: {
+        screen: Plataformas
+    },
     Contador: {
+        //Passando parametros
         screen: () => <Contador />
 
     },
