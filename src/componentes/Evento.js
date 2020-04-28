@@ -5,7 +5,7 @@ import Padrao from '../estilo/Padrao'
 export default class Evento extends Component {
 
     state = {
-        texto: null
+        texto: ''
     }
 
     alteratexto = texto => {
@@ -18,7 +18,7 @@ export default class Evento extends Component {
                 <Text style={Padrao.fonte40}>{this.state.texto}</Text>
                 <TextInput value={this.state.texto}
                     style={Padrao.input}
-                    />
+                    onChangeText={this.alteratexto}/>
                      
             </View>
         )
