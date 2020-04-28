@@ -14,6 +14,7 @@ export default createDrawerNavigator({
     Plataformas: {
         screen: Plataformas
     },
+   
     Contador: {
         //Passando parametros
         screen: () => <Contador />
