@@ -4,6 +4,7 @@ import { View, Text} from 'react-native'
 const fonte = { style: { fontSize: 30 }}
 
 function filhosComprops(props){
+    //Com esta funcao faremos o clone das Props do PAI
      return React.Children.map (props.children,
         c => React.cloneElement(c, { ...props, ...c.props }))
     }
