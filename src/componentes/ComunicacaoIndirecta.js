@@ -6,7 +6,8 @@ export const Entrada = props =>
     <View>
         <TextInput value={props.texto}
           style={Padrao.input}
-          onChangeText={props.chamarQuandoMudar}/>
+          onChangeText={props.chamarQuandoMudar}
+          keyboardType="numeric"/>
     </View>
 
 export default class TextoSincronizado extends Component {
