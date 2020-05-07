@@ -32,3 +32,9 @@ const itemEstilo = {
     borderWidth: 0.5,
     borderColor: '#222',
 }
+
+export const Aluno = props =>
+    <View style={itemEstilo}>
+        <Text>Nome: {props.nome}</Text>
+<Text style={{fontWeight: 'bold'}}>nota: {props.nota}</Text>
+    </View>
