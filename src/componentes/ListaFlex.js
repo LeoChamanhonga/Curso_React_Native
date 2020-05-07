@@ -41,6 +41,13 @@ export const Aluno = props =>
 
 export default props => {
     const renderItems = ({item}) =>{
-        
+        return <Aluno {...item} />
     }
+
+    return (
+        <ScrollView>
+            <FlatList data={alunos} renderItem={renderItem}
+                keyExtractor={(_, index) => index.toString()} />
+        </ScrollView>
+    )
 }
