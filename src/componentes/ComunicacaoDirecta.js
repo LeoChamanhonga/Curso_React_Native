@@ -4,9 +4,9 @@ import { View, Text} from 'react-native'
 const fonte = { style: { fontSize: 30 }}
 
 function filhosComprops(props){
-    {React.Children.map (props.children,
-        c => React.cloneElement(c, { ...props, ...c.props }))}
-}
+     return React.Children.map (props.children,
+        c => React.cloneElement(c, { ...props, ...c.props }))
+    }
 
 export const Filho = props =>
   <View>
