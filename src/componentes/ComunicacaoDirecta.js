@@ -3,6 +3,7 @@ import { View, Text} from 'react-native'
 
 const fonte = { style: { fontSize: 30 }}
 
+// Na comunicacao directa passamos a Props pra o FIlho
 function filhosComprops(props){
     //Com esta funcao faremos o clone das Props do PAI
      return React.Children.map (props.children,
