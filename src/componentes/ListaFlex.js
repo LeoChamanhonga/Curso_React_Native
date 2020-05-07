@@ -36,5 +36,11 @@ const itemEstilo = {
 export const Aluno = props =>
     <View style={itemEstilo}>
         <Text>Nome: {props.nome}</Text>
-<Text style={{fontWeight: 'bold'}}>nota: {props.nota}</Text>
+        <Text style={{fontWeight: 'bold'}}>nota: {props.nota}</Text>
     </View>
+
+export default props => {
+    const renderItems = ({item}) =>{
+        
+    }
+}
