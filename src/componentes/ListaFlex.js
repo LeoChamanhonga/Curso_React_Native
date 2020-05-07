@@ -13,4 +13,14 @@ const alunos = [
     {id: 8, nome: 'Rodney', nota: 10.9},
     {id: 9, nome: 'Quentin', nota: 6.2},
 
+    {id: 10, nome: 'Joao', nota: 7.9},
+    {id: 12, nome: 'Araujo', nota: 8.9},
+    {id: 13, nome: 'Rafaela', nota: 7.9},
+    {id: 14, nome: 'Shelton', nota: 6.9},
+    {id: 15, nome: 'Cristina', nota: 5.9},
+    {id: 16, nome: 'Asley', nota: 4.9},
+    {id: 17, nome: 'Chanaya', nota: 3.9},
+    {id: 18, nome: 'Rodney', nota: 10.9},
+    {id: 19, nome: 'Quentin', nota: 6.2},
+
 ]
